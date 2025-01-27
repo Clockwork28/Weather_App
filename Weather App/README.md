@@ -37,8 +37,6 @@ To connect to OpenWeatherMap, you need an **API Key**.
 }
 ```
 
-> **Note**: Keep your API key private. Make sure to **not** upload your `appSettings.json` to GitHub or any public repositories. You can add it to `.gitignore` for privacy.
-
 ### 3. Build and Run the Application:
 1. Open the project in **Visual Studio** or your preferred C# IDE.
 2. Build and run the project.
