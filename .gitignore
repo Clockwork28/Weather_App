@@ -1,0 +1,17 @@
+# Ignore Visual Studio files
+.vs/
+.vscode/
+.idea/
+
+# Ignore build folders
+bin/
+obj/
+
+# Ignore configuration files with secrets or API keys
+appSettings.json
+
+# Ignore NuGet package folders
+packages/
+
+# Ignore logs
+*.log
