@@ -13,7 +13,7 @@ namespace Weather_App.Services
             try
             {
 
-                var appSettings = File.ReadAllText("appSettings.json");
+                var appSettings = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "appSettings.json"));
                 var apiKey = JsonSerializer.Deserialize<AppSettings>(appSettings)?.ApiKey;
                 if (apiKey != null)
                 {
